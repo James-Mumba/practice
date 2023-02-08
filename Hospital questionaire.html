@@ -1,0 +1,126 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <title>Hidden Leaf Hospital</title>
+  </head>
+  <h1>Hidden Leaf Patient questionaire</h1>
+  <hr />
+  <form action="">
+    <label for="Name">Name </label><input type="text" /><br />
+
+    <label for="Email">Email </label><input type="email" /><br />
+
+    <label for="Telephone">Tel. no </label><input type="tel" /><br />
+
+    <label for="date">Date </label><input type="date" /><br />
+  </form>
+
+  <hr />
+  <form>
+    <p>
+      Is your primary health care physician able to conduct a swift diagnosis
+      and prescribe medication?
+    </p>
+    <!--the labels and the input are still a bit challenging but i think a little practice ought to give me the hang on them-->
+    <label for="opinion">Rarely</label>
+    <input type="checkbox" name="Rarely" id="Rarely" />
+    <label for="opinion">occassionally</label>
+    <input type="checkbox" name="occassionally" id="occassionally" />
+    <label for="opinion">Depends with his mood</label>
+    <input
+      type="checkbox"
+      id="Depends with his mood"
+      name="Depends with his mood"
+      value="Depends with his mood"
+    />
+
+    <p>Did you have any issues arranging an appointment?</p>
+    <label for="yes">Yes</label>
+    <input type="radio" id="choice" name="option" value="yes" />
+    <label for="no">No</label>
+    <input type="radio" id="choice" name="option" value="no" />
+    <p>
+      How often did you receive conflicting information from different medical
+      care professionals at this hospital?
+    </p>
+    <label for="Rarely">Rarely</label>
+    <input type="checkbox" id="opinion" name="opinion" value="Rarely" />
+    <label for="Oftn">Often</label>
+    <input type="checkbox" id="Often" name="Often" value="Often" />
+    <label for="During shift change">During shift change</label>
+    <input
+      type="checkbox"
+      id="During shift change"
+      name="During shift change"
+      value="During shift change"
+    />
+    <label for="Never">Never</label>
+    <input type="checkbox" id="Never" name="Never" value="Never" />
+
+    <p>Did the birth home provide good post-natal care?</p>
+    <label for="opinion">Yes</label>
+    <input type="radio" id="yes" name="opinion" value="Yes" />
+    <label for="opinion">No</label>
+    <input type="radio" id="no" name="opinion" value="No" />
+    <label for="Opinion">Never going back again</label>
+    <input
+      type="radio"
+      id="never going back again"
+      name="opinion"
+      value="never going back again"
+    />
+
+    <p>As a woman, did you feel comfortable talking to the gynecologist?</p>
+    <!--i cant seem to push the yes down to its box. Even when i use the break tag <br>-->
+    <label for="opinion">Yes</label
+    ><!--this option keeps staying up while the check box moves down to the next paragraph-->
+    <input type="checkbox" id="Yes" name="Opinion" value="Yes" />
+    <label for="opinion">No</label>
+    <input type="checkbox" id="No" name="Opinion" value="No" />
+    <label for="opinion">i preffer the older doctors for this</label>
+    <input
+      type="checkbox"
+      id="i preffer the older doctors for this"
+      name="opinion"
+      value="i preffer the older doctors for this"
+    />
+    <label for="opinion">i preffer the younger doctors for this</label>
+    <input
+      type="checkbox"
+      id="i preffer the younger doctors for this"
+      name="opinion"
+      value="i preffer the younger doctors for this"
+    />
+    <!--still trying to figure out why when i choose an option on this question, i undo my selection for the last option-->
+    <p>
+      Did the pharmacy staff bill your health provider and collect the right
+      deductible from you for your medicines?
+    </p>
+    <label for="opinion">Yes</label>
+    <input type="radio" id="yes" name="opinion" value="Yes" />
+    <label for="opinion">No</label>
+    <input type="radio" id="no" name="opinion" value="No" />
+    <label for="opinion">Not sure</label>
+    <input type="radio" id="not sure" name="opinion" value="Not sure" />
+    <!--the code is different from the last one but i cant seem to get them to work indipendently, its as if its part of the previous questions answer option?-->
+    <p>How often do you visit a dentist?</p>
+    <label for="opinion">Monthly</label>
+    <input type="radio" id="monthly" name="opinion" value="Monthly" />
+    <label for="opinion">Every 6 months</label>
+    <input
+      type="radio"
+      id="every 6 months"
+      name="opinion"
+      value="Every 6 months"
+    />
+    <label for="opinion">Once a year</label>
+    <input type="radio" id="once a year" name="opinion" value="once a year" />
+    <label for="opinion">Never</label>
+    <input type="radio" id="never" name="opinion" value="never" />
+  </form>
+  <hr />
+  <label for="Dt submition"> Date Submitted </label
+  ><input type="date" />
+  <button style="background-color: aqua">Submit</button>
+  <body></body>
+</html>
