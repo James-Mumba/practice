@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+  margin: 10px auto;
+  line-height: 20px;
+  width: 60%;
+}
+.core,
+.objectives,
+.education,
+.list,
+.achievements {
+  text-align: center;
+  padding-bottom: 10px;
+  line-height: 18px;
+  margin: 10px auto;
+  border-bottom: 1px solid grey;
+  width: 80%;
+}
+.pgraph {
+  text-align: center;
+}
+.education dd {
+  padding-bottom: 3px;
+  margin: 5px auto;
+}
+h3 {
+  padding: 10px 0;
+  text-align: center;
+}
+.o-list {
+  line-height: 18px;
+}
+.referees {
+  border-bottom: 1px solid grey;
+}
+.referees p {
+  margin: 5px;
+}
