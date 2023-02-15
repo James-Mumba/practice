@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  background-color: rgb(208, 141, 244);
+  height: 200px;
+}
+main {
+  display: flex;
+  height: 800px;
+  grid-gap: 0.5pc;
+}
+.sidebar {
+  background-color: aqua;
+  width: 300px;
+}
+.mainpage {
+  background-color: coral;
+  width: 1000px;
+}
+footer {
+  height: 200px;
+  background-color: floralwhite;
+}
