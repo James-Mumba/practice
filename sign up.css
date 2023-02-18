@@ -18,14 +18,7 @@ main {
   height: 100vh;
   background-image: url(pics/710445-cool-naruto-wallpapers-hd-1920x1200-4k.jpg);
   background-position: center;
-  display: block;
-  border: 1px solid green;
-}
-.left 2{
-  width: 50%;
-  height: 100vh;
-  background-image: url(pics/Naruto-Uzumaki-Wallpaper.jpg);
-  background-position: center;
+  background-size: cover;
   display: block;
   border: 1px solid green;
 }
@@ -37,20 +30,17 @@ main {
   justify-content: center;
   flex-direction: column;
   border: 1px solid blue;
+  background: linear-gradient(to bottom, rgb(66, 103, 254), rgb(0, 0, 0));
 }
 h3 {
   margin: 5px 0px;
-}
-h4 {
-  text-align: center;
+  color: aliceblue;
 }
 p {
   margin: 5px 30%;
   text-align: center;
   color: #444;
-}
-.p {
-  display: table;
+  color: aliceblue;
 }
 input {
   padding: 8px 8px;
@@ -65,10 +55,16 @@ label {
 }
 button {
   border-radius: 5px;
-  background-color: skyblue;
+  background-color: rgb(0, 153, 0);
   color: azure;
   font-size: large;
-  border-style: outset;
 }
-button:{ hover;
+a:link {
+  color: cornsilk;
+}
+a:hover {
+  color: lightgreen;
+}
+button:hover {
+  background-color: blue;
 }

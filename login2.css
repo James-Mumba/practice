@@ -13,11 +13,12 @@ main {
 .main {
   box-sizing: border-box;
 }
-.left2{
+.left2 {
   width: 50%;
   height: 100vh;
   background-image: url(pics/bc\ asta.jpg);
-  background-size: 200%;
+  background-attachment: fixed;
+  background-size: 170%;
   background-position: center;
   display: block;
   border: 1px solid green;
@@ -27,12 +28,15 @@ main {
   align-items: center;
   display: flex;
   height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+
   justify-content: center;
   flex-direction: column;
   border: 1px solid blue;
 }
 h3 {
   margin: 5px 0px;
+  color: #ffffff;
 }
 h4 {
   text-align: center;
@@ -40,7 +44,7 @@ h4 {
 p {
   margin: 5px 30%;
   text-align: center;
-  color: #444;
+  color: #ffffff;
 }
 .p {
   display: table;
@@ -58,10 +62,16 @@ label {
 }
 button {
   border-radius: 5px;
-  background-color: skyblue;
+  background-color: rgb(50, 50, 50);
   color: azure;
   font-size: large;
-  border-style: outset;
 }
-button:{ hover;
+a:link {
+  color: beige;
+}
+a:hover {
+  color: cornsilk;
+}
+button:hover {
+  background-color: rgb(212, 64, 38);
 }
