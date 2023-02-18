@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  border: 1px solid red;
+}
+.main {
+  box-sizing: border-box;
+}
+.left2{
+  width: 50%;
+  height: 100vh;
+  background-image: url(pics/bc\ asta.jpg);
+  background-size: 200%;
+  background-position: center;
+  display: block;
+  border: 1px solid green;
+}
+.right {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+h3 {
+  margin: 5px 0px;
+}
+h4 {
+  text-align: center;
+}
+p {
+  margin: 5px 30%;
+  text-align: center;
+  color: #444;
+}
+.p {
+  display: table;
+}
+input {
+  padding: 8px 8px;
+  width: 100%;
+  margin: 3px 0;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #444;
+}
+label {
+  padding: 5px 0;
+}
+button {
+  border-radius: 5px;
+  background-color: skyblue;
+  color: azure;
+  font-size: large;
+  border-style: outset;
+}
+button:{ hover;
+}
